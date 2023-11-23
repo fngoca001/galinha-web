@@ -1,0 +1,13 @@
+.header{
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db ;
+}
+
+h1{
+    border: 1px solid aliceblue;
+    padding: .1rem 6%;
+    border-radius: 5px;
+}

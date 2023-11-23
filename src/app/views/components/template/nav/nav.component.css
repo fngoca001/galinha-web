@@ -1,0 +1,18 @@
+.container{
+    height: 88%;
+    background-color: white;
+}
+
+I{
+    margin-right: 1rem;
+}
+
+button{
+    margin: 1rem auto 0 1rem;
+    background-color: white;
+    border: none;
+}
+
+.sidenav{
+    background-color: #324b63;
+}
