@@ -5,26 +5,30 @@
         <i class="material-icons">home</i>Home
       </a>
       <a mat-list-item routerLink="/">
-        <i class="material-icons">person</i>Cliente
+        <i class="material-icons">person_pin</i>Cliente
       </a>
       <a mat-list-item routerLink="/">
-        <i class="material-icons">person</i>Funcionario
-      </a>
-
-      <a mat-list-item routerLink="/">
-        <i class="material-icons">perm_identity</i>Funcionario
+        <i class="material-icons">group</i>Funcionario
       </a>
 
       <a mat-list-item routerLink="/">
-        <i class="material-icons">shopping_basket</i>Vendas
+        <i class="material-icons">local_shipping</i>Encomenda
       </a>
 
       <a mat-list-item routerLink="/">
-        <i class="material-icons">perm_identity</i>Pedidos
+        <i class="material-icons">local_mall</i>Vendas
       </a>
 
       <a mat-list-item routerLink="/">
-        <i class="material-icons">perm_identity</i>Gastos
+        <i class="material-icons">local_parking</i>Pedidos
+      </a>
+
+      <a mat-list-item [matMenuTriggerFor]="menu" >
+        <mat-menu #menu="matMenu" >
+          <a routerLink="" mat-menu-item class="menu">Salário</a>
+          <a routerLink="" mat-menu-item class="menu">Gastos</a>
+        </mat-menu>
+        <i class="material-icons">work</i>Gestão
       </a>
 
     </mat-nav-list>
@@ -34,6 +38,7 @@
       <button mat-button (click)="drawer.toggle()">
         <mat-icon>more_vert</mat-icon>
       </button>
+      <router-outlet></router-outlet>
     </div>
   
   </mat-drawer-container>
