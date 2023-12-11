@@ -14,6 +14,15 @@ import {MatListModule} from '@angular/material/list';
 import {MatMenuModule} from '@angular/material/menu';
 import { HomeComponent } from './views/components/home/home.component';
 import {MatCardModule} from '@angular/material/card';
+import { ClienteRedComponent } from './views/components/cliente/cliente-red/cliente-red.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator'; 
+import { HttpClientModule } from '@angular/common/http';
+import { ClienteCreateComponent } from './views/components/cliente/cliente-create/cliente-create.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 @NgModule({
@@ -22,7 +31,9 @@ import {MatCardModule} from '@angular/material/card';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ClienteRedComponent,
+    ClienteCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +44,13 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatListModule,
     MatMenuModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule,
+    MatPaginatorModule,
+    HttpClientModule,
+    MatButtonModule,
+    MatInputModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,25 @@
+<form class="form">
+    <h1>Adicinar Cliente</h1>
+    <mat-form-field class="full-width">
+      <mat-label>Nome</mat-label>
+      <input matInput placeholder="Ex. Elton Mubai" value="">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <mat-label>Morada</mat-label>
+        <input matInput placeholder="Ex. Benfica" value="">
+      </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <mat-label>Telefone 1</mat-label>
+        <input matInput placeholder="Ex. 840000000" value="">
+      </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <mat-label>Telefone 2</mat-label>
+        <input matInput placeholder="Ex. 870000000" value="">
+      </mat-form-field>
+
+      <button mat-stroked-button color="accent">Adicionar</button>
+      <button mat-stroked-button color="warn" (click)="cancel()">Cancelar</button>
+  </form>

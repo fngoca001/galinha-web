@@ -1,0 +1,32 @@
+.create{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.create button{
+    width: 100%;
+    margin: 1rem auto;
+    background-color: rgb(87, 94, 90);
+}
+
+.conteiner {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+table{
+    width: 100%;
+    background-color: rgb(87, 94, 90);
+}
+
+mat-paginator{
+    background-color: rgb(87, 94, 90);
+}
+
+.create h1{
+    color: rgb(87, 94, 90);
+    text-align: center;
+    font-size: 2rem;
+}
